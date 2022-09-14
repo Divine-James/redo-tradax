@@ -1,0 +1,16 @@
+.nav-btn{
+
+    &__button{
+        padding: .7rem 4.5rem;
+        background-color: $color-white;
+        border-radius: 6px;
+        border: none;
+        &:hover{
+            border: 2px solid $color-blue-light;
+        }
+        &:not(:last-child){
+            margin-right: 5rem;
+        }
+    }
+ 
+}

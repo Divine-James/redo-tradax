@@ -2,25 +2,9 @@
     display: flex;
     color: $color-grey;
     &__item:not(:last-child){
-        margin-right: 7rem;
+        margin-right: 4rem;
     }
    &__item:hover{
     border-bottom:3px solid $color-blue-light ;
    }
-}
-.nav-btn{
-
-    &__button{
-        padding: .7rem 4.5rem;
-        background-color: $color-white;
-        border-radius: 6px;
-        border: none;
-        &:hover{
-            border: 2px solid $color-blue-light;
-        }
-        &:not(:last-child){
-            margin-right: 5rem;
-        }
-    }
- 
 }

@@ -1,0 +1,33 @@
+
+.main-content{
+    background-color: $color-white;
+    &__signup{
+        display: flex;
+        margin: 5rem;
+        justify-content: space-between;
+    }
+}
+.learn-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60rem;
+    &__heading{
+        font-size: 80px;
+    }
+    &__paragraph{
+        font-size: 32px;
+    }
+    &__button{
+        padding: 1.1rem 9rem;
+        border-radius: 6px;
+        border: none;
+        &-2{
+            background-color: $color-blue;
+            color: $color-white;
+        }
+    }
+}
+.learn-more span{
+    color: $color-blue;
+}
