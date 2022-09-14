@@ -15,7 +15,24 @@ a, li {
   text-decoration: none;
   list-style: none; }
 
+.nav-link {
+  display: flex;
+  color: #eee8e8; }
+  .nav-link__item:not(:last-child) {
+    margin-right: 10rem; }
+
+.nav-btn__button {
+  padding: .7rem 4.5rem;
+  background-color: #fff;
+  border-radius: 6px; }
+  .nav-btn__button:not(:last-child) {
+    margin-right: 5rem; }
+
 .nav-bar {
-  background-color: #1B3593; }
+  background-color: #1B3593;
+  padding: 1rem 5rem;
+  font-size: 16px; }
   .nav-bar__content {
-    display: flex; }
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }

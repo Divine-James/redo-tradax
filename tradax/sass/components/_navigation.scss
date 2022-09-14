@@ -1,3 +1,19 @@
-.info{
+.nav-link{
     display: flex;
+    color: $color-grey;
+    &__item:not(:last-child){
+        margin-right: 10rem;
+    }
+}
+.nav-btn{
+
+    &__button{
+        padding: .7rem 4.5rem;
+        background-color: $color-white;
+        border-radius: 6px;
+        &:not(:last-child){
+            margin-right: 5rem;
+        }
+    }
+ 
 }
