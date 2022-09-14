@@ -19,12 +19,17 @@ a, li {
   display: flex;
   color: #eee8e8; }
   .nav-link__item:not(:last-child) {
-    margin-right: 10rem; }
+    margin-right: 7rem; }
+  .nav-link__item:hover {
+    border-bottom: 3px solid #708efc; }
 
 .nav-btn__button {
   padding: .7rem 4.5rem;
   background-color: #fff;
-  border-radius: 6px; }
+  border-radius: 6px;
+  border: none; }
+  .nav-btn__button:hover {
+    border: 2px solid #708efc; }
   .nav-btn__button:not(:last-child) {
     margin-right: 5rem; }
 
