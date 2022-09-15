@@ -1,9 +1,21 @@
 
 .main-content{
     background-color: $color-white;
+    margin: 5rem;
     &__signup{
         display: flex;
-        margin: 5rem;
+        
+        justify-content: space-between;
+    }
+    &__coins{
+        display: flex;
+        justify-content: space-between;
+        margin: 5rem 1rem;
+        width: 120rem;
+    }
+    &__trade-menu{
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 }

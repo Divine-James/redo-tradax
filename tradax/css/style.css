@@ -33,6 +33,33 @@ a, li {
   .nav-link__item:hover {
     border-bottom: 3px solid #708efc; }
 
+.trade-menu__heading {
+  font-size: 50px;
+  color: #1B3593;
+  margin: 0 auto;
+  text-align: center; }
+
+.trade-menu__list {
+  margin: 0 auto;
+  margin-top: 8rem; }
+  .trade-menu__list-item {
+    display: flex;
+    margin-bottom: 8rem; }
+
+.trade-menu__box {
+  width: 35rem;
+  height: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  border-radius: 5px;
+  padding: 2rem; }
+  .trade-menu__box:not(:last-child) {
+    margin-right: 15rem; }
+  .trade-menu__box-heading {
+    font-size: 22px;
+    margin: 1rem 0; }
+  .trade-menu__box-paragraph {
+    font-size: 17px; }
+
 .nav-bar {
   background-color: #1B3593;
   padding: 1rem 5rem;
@@ -43,10 +70,19 @@ a, li {
     align-items: center; }
 
 .main-content {
-  background-color: #fff; }
+  background-color: #fff;
+  margin: 5rem; }
   .main-content__signup {
     display: flex;
-    margin: 5rem;
+    justify-content: space-between; }
+  .main-content__coins {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 1rem;
+    width: 120rem; }
+  .main-content__trade-menu {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between; }
 
 .learn-more {
