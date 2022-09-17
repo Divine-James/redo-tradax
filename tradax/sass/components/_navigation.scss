@@ -1,10 +1,26 @@
-.nav-link{
+.nav-link {
     display: flex;
     color: $color-grey;
-    &__item:not(:last-child){
+
+    &__item:not(:last-child) {
         margin-right: 4rem;
     }
-   &__item:hover{
-    border-bottom:3px solid $color-blue-light ;
-   }
+
+    &__item:hover {
+        border-bottom: 3px solid $color-blue-light ;
+    }
+}
+
+.nav-bar {
+    background-color: $color-blue;
+    padding: 1rem 5rem;
+
+    font-size: 16px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
 }

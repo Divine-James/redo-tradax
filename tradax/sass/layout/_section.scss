@@ -1,48 +1,27 @@
-
-.main-content{
+.main-content {
     background-color: $color-white;
     margin: 5rem;
-    &__signup{
+
+    &__signup {
         display: flex;
-        
+
         justify-content: space-between;
     }
-    &__coins{
+
+    &__coins {
         display: flex;
         justify-content: space-between;
         margin: 10rem 1rem;
         width: 120rem;
     }
-    &__trade-menu{
+
+    &__trade-menu {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    &__testimonial{
+
+    &__testimonial {
         margin-top: 10rem;
     }
-}
-.learn-more{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 60rem;
-    &__heading{
-        font-size: 80px;
-    }
-    &__paragraph{
-        font-size: 32px;
-    }
-    &__button{
-        padding: 1.1rem 9rem;
-        border-radius: 6px;
-        border: none;
-        &-2{
-            background-color: $color-blue;
-            color: $color-white;
-        }
-    }
-}
-.learn-more span{
-    color: $color-blue;
 }

@@ -141,6 +141,30 @@ a, li {
 .last-box {
   border: none; }
 
+.footer-box {
+  background-color: #1B3593;
+  padding: 70px; }
+  .footer-box__heading {
+    color: #fff;
+    font-size: 40px; }
+  .footer-box__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0;
+    width: 100%; }
+  .footer-box__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .footer-box__links {
+    display: flex;
+    justify-content: space-between; }
+
+.footer-box p,
+.footer-box h1 {
+  color: white;
+  font-size: 30px; }
+
 .nav-bar {
   background-color: #1B3593;
   padding: 1rem 5rem;
