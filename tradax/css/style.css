@@ -15,6 +15,53 @@ a, li {
   text-decoration: none;
   list-style: none; }
 
+.buynsell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.buynsell span {
+  font-weight: 700;
+  text-align: center; }
+
+.box-input {
+  background-color: #eee8e8;
+  height: 7rem;
+  width: 107rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1rem; }
+
+.box-input p {
+  font-size: 20px; }
+
+.input-img {
+  width: 8%; }
+
+.arrow {
+  display: flex;
+  align-items: center; }
+
+.down-arrow {
+  font-size: 35px;
+  color: black;
+  position: absolute;
+  right: 3rem;
+  top: 10px; }
+
+.pay {
+  margin-top: 10rem; }
+
+.p-info {
+  font-size: 20px;
+  text-align: center;
+  margin: 7rem 0 7rem  0; }
+
+.start-btn {
+  margin-left: 45rem; }
+
 .nav-btn__button {
   padding: .7rem 4.5rem;
   background-color: #fff;
@@ -60,6 +107,14 @@ a, li {
   .trade-menu__box-paragraph {
     font-size: 17px; }
 
+.start-trade__box {
+  height: 70rem;
+  width: 120rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  padding: 3rem; }
+
 .nav-bar {
   background-color: #1B3593;
   padding: 1rem 5rem;
@@ -78,7 +133,7 @@ a, li {
   .main-content__coins {
     display: flex;
     justify-content: space-between;
-    margin: 5rem 1rem;
+    margin: 10rem 1rem;
     width: 120rem; }
   .main-content__trade-menu {
     display: flex;

@@ -32,3 +32,13 @@
     }
 
 }
+.start-trade{
+    &__box{
+        height: 70rem;
+        width:120rem;
+        box-shadow: rgba(0,0,0,0.24) 0 3px 8px;
+        margin: 0 auto;
+        margin-top: 10rem;
+        padding: 3rem;
+    }
+}

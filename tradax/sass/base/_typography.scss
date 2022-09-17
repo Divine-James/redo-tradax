@@ -1,0 +1,51 @@
+.buynsell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.buynsell span{
+    font-weight: 700;
+    text-align: center;
+}
+.box-input{
+    background-color: rgb(238, 232, 232);
+    height: 7rem;
+    width: 107rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+}
+.box-input p{
+    font-size: 20px;
+}
+
+.input-img{
+    width: 8%;
+    
+}
+.arrow{
+    display: flex;
+    align-items: center;
+}
+.down-arrow{
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    right: 3rem;
+    top: 10px;
+}
+.pay{
+    margin-top: 10rem;
+}
+.p-info{
+    font-size: 20px;
+    text-align: center;
+    margin: 7rem 0 7rem  0;
+    
+}
+.start-btn{
+    margin-left: 45rem;
+}
