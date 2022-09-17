@@ -115,6 +115,32 @@ a, li {
   margin-top: 10rem;
   padding: 3rem; }
 
+.user-testimony {
+  margin: 5rem 15rem;
+  display: flex;
+  justify-content: space-between; }
+  .user-testimony__box {
+    width: 35rem;
+    height: 18rem;
+    border: 1px solid #eee8e8;
+    border-radius: 5px;
+    padding: 2rem;
+    padding-right: 6rem;
+    position: relative; }
+    .user-testimony__box-heading {
+      font-size: 22px;
+      margin: 1rem 0;
+      margin-top: 3rem; }
+    .user-testimony__box-paragraph {
+      font-size: 19px; }
+
+.user-photo {
+  position: absolute;
+  top: -5rem; }
+
+.last-box {
+  border: none; }
+
 .nav-bar {
   background-color: #1B3593;
   padding: 1rem 5rem;
@@ -139,6 +165,8 @@ a, li {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+  .main-content__testimonial {
+    margin-top: 10rem; }
 
 .learn-more {
   display: flex;
